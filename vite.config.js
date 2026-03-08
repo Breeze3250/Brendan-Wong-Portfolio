@@ -5,7 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Brendan-Wong-Portfolio/',
+  base: '/Portfolio/',
   plugins: [
     react(),
     tailwindcss(),
