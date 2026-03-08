@@ -208,3 +208,17 @@ a {
 @media (max-width: 640px) {
   .hero-name { font-size: 3rem; }
 }
+
+.hero-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+@media (max-width: 768px) {
+  .hero-layout {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+}

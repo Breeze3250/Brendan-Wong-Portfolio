@@ -79,7 +79,7 @@ export default function App() {
 
         {/* HERO / ABOUT */}
         <section id="about" style={{ minHeight: "100vh", display: "flex", flexDirection: "column", justifyContent: "center", padding: "8rem 2rem 6rem", maxWidth: "1100px", margin: "0 auto" }}>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-center", gap: "10rem" }}>
+          <div className="hero-layout">
 
             {/* Left side — text content */}
             <div style={{ flex: 1 }}>
@@ -94,7 +94,7 @@ export default function App() {
                 Brendan<br /><span>Wong.</span>
               </h1>
 
-              {/* ── BIO: replace the paragraph below with your own words ── */}
+              {/* BIO */}
               <p style={{ fontFamily: "'DM Mono', monospace", fontSize: "0.88rem", color: "var(--muted)", maxWidth: "520px", lineHeight: 1.8, marginBottom: "1rem" }}>
                 I am a Computer Science student specializing in Bioinformatics at the University of Waterloo. 
                 My professional background includes engineering full-stack features at Adentro, developing embedded C++ device drivers at Christie Digital, and building automated genomic pipelines at Sinai Health. 
